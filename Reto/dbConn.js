@@ -32,6 +32,7 @@ const executeQuery = async = () => {
         results = results.split('\n');
         for ( let i = 0; i < results.length; i++) {
             console.log(`${i+1}.- ${results[i]}`);
+            debugger;
         }
       });
 }
